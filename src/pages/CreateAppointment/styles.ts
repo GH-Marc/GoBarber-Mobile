@@ -45,7 +45,7 @@ export const ProvidersListContainer = styled.View`
 `;
 
 export const ProvidersList = styled(FlatList as new () => FlatList<Provider>)`
-  padding: 32px 24px;
+  padding: 32px 8px;
 `;
 
 export const ProviderContainer = styled(RectButton)<ProviderContainerProps>`
